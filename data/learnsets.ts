@@ -59304,6 +59304,7 @@ export const Learnsets: {[k: string]: LearnsetData} = {
 	},
 	crustle: {
 		learnset: {
+			crabhammer: ["9M"],
 			pinmissile: ["9M"],
 			aerialace: ["7M", "6M", "5M"],
 			attract: ["8M", "7M", "6M", "5M"],
