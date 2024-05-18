@@ -571,13 +571,7 @@ export const Formats: FormatList = [
 		searchShow: false,
 		ruleset: ['Standard Draft', '+Unobtainable', '+Past'],
 	},
-	{
-		name: "ADL Tera Preview Draft",
-
-		mod: 'gen9',
-		searchShow: false,
-		ruleset: ['[Gen 9] NatDex Draft', 'Tera Type Preview'],
-	},
+	
 	{
 		name: "[Gen 9] NatDex 6v6 Doubles Draft",
 
@@ -2271,21 +2265,11 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen9',
-		ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Clause', 'Species Clause', 'Sleep Clause Mod'],
+		ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Clause', 'Species Clause', 'Sleep Clause Mod', 'Tera Type Preview'],
 		banlist: [
 			'ND Uber', 'ND AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'King\'s Rock',
 			'Quick Claw', 'Razor Fang', 'Assist', 'Baton Pass', 'Last Respects', 'Shed Tail',
 		],
-	},
-	{
-		name: "ADL Draft",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3710848/">ADL Drafts</a>`,
-		],
-
-		mod: 'gen9',
-		ruleset: ['Standard NatDex', 'Tera Type Preview', 'OHKO Clause', 'Evasion Clause', 'Species Clause', 'Sleep Clause Mod'],
-		
 	},
 	{
 		name: "[Gen 9] National Dex Ubers",
