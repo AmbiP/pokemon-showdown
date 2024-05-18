@@ -541,7 +541,7 @@ export const Formats: FormatList = [
 		ruleset: ['Standard Draft', 'Min Source Gen = 9'],
 	},
 	{
-		name: "ADL Tera Preview Draft",
+		name: "Gen 9 Tera Preview Draft",
 
 		mod: 'gen9',
 		searchShow: false,
@@ -572,7 +572,7 @@ export const Formats: FormatList = [
 		ruleset: ['Standard Draft', '+Unobtainable', '+Past'],
 	},
 	{
-		name: "[Gen 9] Tera Preview NatDex Draft",
+		name: "ADL Tera Preview Draft",
 
 		mod: 'gen9',
 		searchShow: false,
