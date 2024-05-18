@@ -3164,6 +3164,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 1886,
 		gen: 9,
 	},
+
 	lopunnite: {
 		name: "Lopunnite",
 		spritenum: 626,
@@ -7622,5 +7623,19 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: -2,
 		gen: 8,
 		isNonstandard: "CAP",
+	},
+		whimsicottite: {
+		name: "Whimsicottite",
+		spritenum: 608,
+		megaStone: "Whimsicott-Mega",
+		megaEvolves: "Whimsicott",
+		itemUser: ["Whimsicott"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1887,
+		gen: 6,
+		isNonstandard: "Past",
 	},
 };
