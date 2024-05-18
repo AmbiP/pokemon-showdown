@@ -2278,6 +2278,16 @@ export const Formats: FormatList = [
 		],
 	},
 	{
+		name: "ADL Draft",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3710848/">ADL Drafts</a>`,
+		],
+
+		mod: 'gen9',
+		ruleset: ['Standard NatDex', 'Team Preview', 'OHKO Clause', 'Evasion Clause', 'Species Clause', 'Sleep Clause Mod'],
+		
+	},
+	{
 		name: "[Gen 9] National Dex Ubers",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3712168/">National Dex Ubers Metagame Discussion</a>`,
