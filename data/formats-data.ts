@@ -3131,6 +3131,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 		natDexTier: "RU",
 	},
+	whimsicottmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "UU",
+	},
 	petilil: {
 		tier: "LC",
 	},
